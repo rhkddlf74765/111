@@ -7,6 +7,7 @@ def step_fuction(x):
     plt.axis([-5,5,-0.1,1.1])
     print(y)
     plt.show()
+
 x=np.arange(-5,5,0.1)
 step_fuction(x)
 

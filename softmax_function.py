@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
- 
 def softmax_function(x):
     tmp=np.max(x)  
     y=np.exp(x-tmp)/np.sum(np.exp(x-tmp))
